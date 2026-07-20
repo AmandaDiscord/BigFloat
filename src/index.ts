@@ -114,7 +114,7 @@ export class BigFloat {
 		return this.add(BigFloat.#make(-right.#digits, right.#scale));
 	}
 
-	public mult(rightHand: CastableToBigFloat): BigFloat {
+	public mul(rightHand: CastableToBigFloat): BigFloat {
 		const right = new BigFloat(rightHand);
 		return BigFloat.#make(this.#digits * right.#digits, this.#scale + right.#scale);
 	}
