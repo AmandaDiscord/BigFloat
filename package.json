@@ -1,0 +1,12 @@
+{
+  "name": "@amanda/big-float",
+  "version": "1.0.0",
+  "description": "A package that allows for converting big ints to have a mantissa and allow floating point math",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node test.ts"
+  },
+  "author": "PapiOphidian",
+  "license": "MIT"
+}
